@@ -1,0 +1,68 @@
+[
+  {
+    "id": 0,
+    "productName": "Fresh Avocados",
+    "image": "🥑",
+    "from": "Spain",
+    "nutrients": "Vitamin B, Vitamin K",
+    "quantity": "4 🥑",
+    "price": "6.50",
+    "organic": true,
+    "description": "A ripe avocado yields to gentle pressure when held in the palm of the hand and squeezed. The fruit is not sweet, but distinctly and subtly flavored, with smooth texture. The avocado is popular in vegetarian cuisine as a substitute for meats in sandwiches and salads because of its high fat content. Generally, avocado is served raw, though some cultivars, including the common 'Hass', can be cooked for a short time without becoming bitter. It is used as the base for the Mexican dip known as guacamole, as well as a spread on corn tortillas or toast, served with spices."
+  },
+  {
+    "id": 1,
+    "productName": "Organic Bananas",
+    "image": "🍌",
+    "from": "Ecuador",
+    "nutrients": "Potassium, Vitamin B6",
+    "quantity": "1 kg 🍌",
+    "price": "4.00",
+    "organic": true,
+    "description": "Sweet and creamy, organic bananas are a great source of energy and essential nutrients. Perfect for a snack, smoothies, or baking."
+  },
+  {
+    "id": 2,
+    "productName": "Red Apples",
+    "image": "🍎",
+    "from": "Italy",
+    "nutrients": "Vitamin C, Fiber",
+    "quantity": "6 🍎",
+    "price": "4.20",
+    "organic": false,
+    "description": "Crisp and juicy red apples, perfect for eating fresh or using in pies and other desserts."
+  },
+  {
+    "id": 3,
+    "productName": "Blueberries",
+    "image": "🍇",
+    "from": "Poland",
+    "nutrients": "Antioxidants, Vitamin K",
+    "quantity": "250g 🫐",
+    "price": "5.50",
+    "organic": true,
+    "description": "Small, sweet, and packed with antioxidants, these organic blueberries are ideal for snacking, cereals, or baking."
+  },
+  {
+    "id": 4,
+    "productName": "Oranges",
+    "image": "🍊",
+    "from": "Morocco",
+    "nutrients": "Vitamin C",
+    "quantity": "1 kg 🍊",
+    "price": "3.80",
+    "organic": false,
+    "description": "Juicy and refreshing oranges, a classic source of Vitamin C. Great for fresh juice or eating as a snack."
+  },
+  {
+    "id": 5,
+    "productName": "Spinach",
+    "image": "🥬",
+    "from": "local",
+    "nutrients": "Iron, Vitamin A, Vitamin C",
+    "quantity": "500g 🥬",
+    "price": "2.80",
+    "organic": true,
+    "description": "Fresh organic spinach, versatile for salads, smoothies, or cooking. A powerhouse of vitamins and minerals."
+  }
+]

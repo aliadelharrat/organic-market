@@ -1,0 +1,59 @@
+<!-- product.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{%PRODUCT_NAME%} {%PRODUCT_IMAGE%}</title>
+    <script src="https://cdn.tailwindcss.com "></script>
+  </head>
+  <body class="bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="bg-white shadow-md p-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">
+        <a href="/">Organic Market</a>
+      </h1>
+      <button
+        class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded"
+      >
+        Back to Shop
+      </button>
+    </header>
+
+    <!-- Product Detail -->
+    <main class="max-w-4xl mx-auto p-6 bg-white shadow rounded-lg mt-6">
+      <div class="flex flex-col md:flex-row gap-6">
+        <!-- Image -->
+        <div class="md:w-1/3 flex justify-center">
+          <div class="text-9xl">{%PRODUCT_IMAGE%}</div>
+        </div>
+
+        <!-- Info -->
+        <div class="md:w-2/3">
+          <h2 class="text-3xl font-bold mb-2">{%PRODUCT_NAME%}</h2>
+          <p class="text-sm text-gray-600 mb-1">
+            <span class="font-semibold">From:</span> {%PRODUCT_FROM%}
+          </p>
+          <p class="text-sm text-gray-600 mb-1">
+            <span class="font-semibold">Nutrients:</span> {%PRODUCT_NUTRIMENTS%}
+          </p>
+          <p class="text-sm text-gray-600 mb-1">
+            <span class="font-semibold">Quantity:</span> {%PRODUCT_QUANTITY%}
+          </p>
+          <p class="text-xl font-bold mt-2">${%PRODUCT_PRICE%}</p>
+          <p class="text-green-600 mt-2 font-medium {%PRODUCT_NOT_ORGANIC%}">
+            ✅ Organic
+          </p>
+
+          <p class="mt-4 text-gray-700 leading-relaxed">{%PRODUCT_DESC%}</p>
+
+          <button
+            class="mt-6 bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-full"
+          >
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

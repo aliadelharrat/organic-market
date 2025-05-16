@@ -1,0 +1,23 @@
+<div
+  class="h-fit bg-white shadow rounded-lg overflow-hidden transition-transform transform hover:scale-105"
+>
+  <div class="text-6xl text-center p-4 py-10 bg-green-100">
+    {%PRODUCT_IMAGE%}
+  </div>
+  <div class="p-4">
+    <p class="text-green-600 mt-2 font-medium {%PRODUCT_NOT_ORGANIC%}">
+      ✅ Organic
+    </p>
+    <h2 class="text-xl font-semibold mb-1">{%PRODUCT_NAME%}</h2>
+    <p class="text-sm text-gray-600">From: {%PRODUCT_FROM%}</p>
+    <p class="text-sm text-gray-600">Nutrients: {%PRODUCT_NUTRIMENTS%}</p>
+    <p class="text-sm text-gray-600">Quantity: {%PRODUCT_QUANTITY%}</p>
+    <p class="text-lg font-bold mt-2">${%PRODUCT_PRICE%}</p>
+
+    <a
+      href="/product?id={%PRODUCT_ID%}"
+      class="mt-3 inline-block text-green-600 hover:underline"
+      >View Details</a
+    >
+  </div>
+</div>
